@@ -19,5 +19,17 @@
   color: white;
   margin: 0 auto;
   text-align: start;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+@media (max-width:800px) {
+  .titulo2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:500px) {
+  .titulo2 {
+    font-size: 1.5rem;
+  }
 }

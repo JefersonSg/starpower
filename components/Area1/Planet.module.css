@@ -1,0 +1,24 @@
+.planet {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  width: max-content;
+}
+.planet img{
+  width: 80px;
+  height: 82px;
+}
+.planet:nth-child(2) img{
+  width: 114px;
+}
+
+.planet:nth-child(1) {
+  top: 0px;
+  left: 20px;
+}

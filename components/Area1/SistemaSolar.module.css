@@ -1,0 +1,18 @@
+.imagens {
+  margin: 0 auto;
+  max-width: 860px;
+  width: 90%;
+  margin-top: 34px;
+}
+
+.foguete {
+  position: relative;
+  top: -470px;
+  left: 505px;
+}
+.estrela {
+  position: relative;
+  top: -740px;
+  left: 645px;
+}
+
