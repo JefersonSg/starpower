@@ -5,5 +5,37 @@
 }
 
 .logo {
+  display: grid;
+  justify-items: center;
   margin: 0 auto;
+  width: max-content;
+}
+.agencia {
+  width: 110%;
+  border-top: 2px solid white;
+  text-align: center;
+  padding-top: 16px;
+  color: white;
+  color: #FFF;
+  /* tipografia */
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.botoes {
+  display: flex;
+  margin-left: 10%;
+}
+
+
+@media (max-width: 800px) {
+  .logo h1 {
+    font-size: 40px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .agencia {
+    font-size: 22px;
+  }
 }
