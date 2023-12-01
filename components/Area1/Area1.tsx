@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Area1.module.css';
 
-const Area1 = () => {
+function Area1() {
   return (
     <section className={styles.area1}>
       <h1 className="titulo">
@@ -9,6 +9,6 @@ const Area1 = () => {
       </h1>
     </section>
   );
-};
+}
 
 export default Area1;

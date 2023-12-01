@@ -9,9 +9,10 @@ const font = Bruno_Ace_SC({
   subsets: ['latin']
 });
 
-const Header = () => {
+export default function Header() {
   return (
     <header className={styles.header}>
+      <span className={styles.testeSpan}></span>
       <div className="container">
         <div className={styles.logo}>
           <Image
@@ -27,9 +28,12 @@ const Header = () => {
           <Botao1 image="/botao/estrelaCadente.png" text={'Nossa equipe'} />
           <Botao1 image="/botao/maoAlien.png" text={'Nossos serviços'} />
         </div>
+        <img
+          className={styles.fundo}
+          src="/circulosBackground.svg"
+          alt="ruido de fundo"
+        />
       </div>
     </header>
   );
-};
-
-export default Header;
+}

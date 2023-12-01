@@ -6,13 +6,11 @@ interface button {
   image?: string;
 }
 
-const Botao1 = ({ text, image }: button) => {
+export default function Botao1({ text, image }: button) {
   return (
     <button className={styles.botao}>
       <img src={image} alt={`foto do botão ${text}`} />
       <p>{text}</p>
     </button>
   );
-};
-
-export default Botao1;
+}

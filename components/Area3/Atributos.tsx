@@ -7,7 +7,7 @@ interface atribute {
   text: string;
 }
 
-const Atributos = ({ img, title, text }: atribute) => {
+export default function Atributos({ img, title, text }: atribute) {
   return (
     <li>
       <Image
@@ -20,6 +20,4 @@ const Atributos = ({ img, title, text }: atribute) => {
       <p>{text}</p>
     </li>
   );
-};
-
-export default Atributos;
+}

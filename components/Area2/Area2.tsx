@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Area2.module.css';
 
-const Area2 = () => {
+export default function Area2() {
   return (
     <section className={styles.area2}>
       <span className={`${styles.separador} botão2`}>Veja na pratica</span>
@@ -16,6 +16,4 @@ const Area2 = () => {
       </p>
     </section>
   );
-};
-
-export default Area2;
+}

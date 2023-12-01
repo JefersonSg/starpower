@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Area3.module.css';
 import Atributos from './Atributos';
 
-const Area3 = () => {
+export default function Area3() {
   return (
     <section className={styles.area3}>
       <h1 className="titulo">E oque é cada coisa?</h1>
@@ -48,6 +48,4 @@ const Area3 = () => {
       </nav>
     </section>
   );
-};
-
-export default Area3;
+}

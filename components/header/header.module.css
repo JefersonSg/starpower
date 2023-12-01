@@ -1,8 +1,21 @@
 .header {
   flex-shrink: 0;
-  background: linear-gradient(100deg,#6F18C9 , #9530E3);
   border-bottom:5px solid white ;
   position: relative;
+}
+
+.fundo {
+  display: block;
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  /* pointer-events: none; */
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  background: linear-gradient(100deg,#6F18C9 , #9530E3);
+
 }
 
 .logo {
@@ -10,8 +23,9 @@
   justify-items: center;
   margin: 0 auto;
   width: max-content;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 96px;
+  /* pointer-events: none; */
 }
 .agencia {
   width: 110%;
@@ -33,11 +47,16 @@
 
 
 @media (max-width: 800px) {
+  .logo {
+    padding-bottom: 64px;
+    padding-top: 16px;
+  }
   .logo h1 {
     font-size: 40px;
   }
   .logo img {
     width: 100px;
+    height: 100px;
   }
   .agencia {
     font-size: 22px;
