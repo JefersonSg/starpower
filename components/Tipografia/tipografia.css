@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Junegull';
+  src: url('./junegull.otf');
+}
+
+.titulo {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Junegull", sans-serif;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.titulo2 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  color: white;
+  margin: 0 auto;
+  text-align: start;
+  letter-spacing: 2px;
+}
