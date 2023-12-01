@@ -9,7 +9,7 @@ interface button {
 const Botao1 = ({ text, image }: button) => {
   return (
     <button className={styles.botao}>
-      <img src={image} alt="" />
+      <img src={image} alt={`foto do botão ${text}`} />
       <p>{text}</p>
     </button>
   );
