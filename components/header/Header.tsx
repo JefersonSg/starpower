@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './Header.module.css';
+import styles from './header.module.css';
 import Botao1 from '../Botoes/Botao1';
 import { Bruno_Ace_SC } from 'next/font/google';
 
