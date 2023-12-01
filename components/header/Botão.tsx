@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Botão = ({ img, text }) => {
+interface button {
+  text: string;
+  image?: string;
+}
+
+const Botão = ({ text }: button) => {
   return <button>{text}</button>;
 };
 
